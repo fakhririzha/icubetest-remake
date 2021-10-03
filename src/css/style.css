@@ -7,3 +7,11 @@
 .page-wrapper :nth-child(odd) {
 	background-color: #cfcfcf;
 }
+
+.sidebar {
+	font-family: "Roboto", sans-serif;
+}
+
+.main-content {
+	font-family: "Open Sans", sans-serif;
+}
