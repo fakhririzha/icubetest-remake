@@ -1,0 +1,9 @@
+.page-wrapper {
+	display: grid;
+	grid-template-columns: 20% 76%;
+	column-gap: 2%;
+}
+
+.page-wrapper :nth-child(odd) {
+	background-color: #cfcfcf;
+}
