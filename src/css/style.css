@@ -118,6 +118,9 @@
 	background-position: center;
 	width: 34px;
 	height: 34px;
+	color: #fff;
+	filter: invert(0%) sepia(9%) saturate(36%) hue-rotate(279deg) brightness(103%)
+		contrast(101%);
 	border-radius: 50%;
 	border: 1px solid #fff;
 }
@@ -129,5 +132,8 @@
 	background-position: center;
 	width: 34px;
 	height: 34px;
+	filter: invert(0%) sepia(95%) saturate(20%) hue-rotate(39deg) brightness(93%)
+		contrast(107%);
+	color: #fff;
 	border-radius: 50%;
 }
