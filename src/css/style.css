@@ -2,14 +2,51 @@
 	display: grid;
 	grid-template-columns: 20% 76%;
 	column-gap: 2%;
-}
 
-.page-wrapper :nth-child(odd) {
-	background-color: #cfcfcf;
+	margin-top: 1rem;
 }
 
 .sidebar {
 	font-family: "Roboto", sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	background-color: #23232c;
+	color: #c2c2ca;
+	height: calc(100vh - 1rem);
+}
+
+.sidebar > .mainNav {
+	margin: 0.5rem 0;
+}
+
+.sidebar .mainNav__icon {
+	height: 13px;
+	width: auto;
+}
+
+.sidebar > .mainNav .mainNav__itemlist {
+	padding-top: 0.1rem;
+}
+
+.sidebar > .mainNav li.mainNav__item {
+	padding: 0.75rem 2rem;
+}
+.sidebar > .mainNav li.mainNav__item:not(.navTitle):hover {
+	background-color: #15151e;
+	border-left: 4px solid #007feb;
+	font-weight: 500;
+	color: #fff;
+	cursor: pointer;
+}
+
+.sidebar > .mainNav li.mainNav__item span {
+	padding-left: 0.5rem;
+}
+
+.sidebar .mainNav__separator {
+	height: 1px;
+	width: 100%;
+	background-color: #32323d;
 }
 
 .main-content {
