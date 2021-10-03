@@ -51,4 +51,83 @@
 
 .main-content {
 	font-family: "Open Sans", sans-serif;
+	display: grid;
+	grid-template-rows: 33.5% 31.5% 35%;
+}
+
+.main-content__player {
+	background-image: url("../img/album-songs-bg.png");
+	background-size: cover;
+	border-radius: 5px;
+}
+
+.main-content__player-wrapper {
+	display: grid;
+	grid-template-columns: 40% 56%;
+	column-gap: 2%;
+}
+
+.main-content__album {
+	text-align: right;
+	cursor: pointer;
+}
+
+.main-content__album img.main-content__albumImg {
+	margin-top: 2.15rem;
+	width: 10rem;
+}
+
+.main-content__album .main-content__animatedEq__wrapper {
+	position: relative;
+	left: calc(100% - 7.25vw);
+	top: -6.5rem;
+	background-color: #000;
+	background-image: url("../img/animated-eq.gif");
+	background-size: 18px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+
+.main-content__description {
+	margin-top: 3.5rem;
+	text-align: left;
+	color: #fff;
+}
+
+.main-content__description p {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.main-content__description small {
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.main-content__heartThis__wrapper {
+	display: inline-block;
+	margin-top: 1.5rem;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url("../img/player-heart.svg");
+	background-size: 26px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+}
+.main-content__skipThis__wrapper {
+	display: inline-block;
+	background-image: url("../img/player-skipsong.svg");
+	background-size: 26px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
 }
