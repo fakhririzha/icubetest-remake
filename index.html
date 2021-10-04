@@ -13,6 +13,20 @@
 		<!-- Reset.css -->
 		<link rel="stylesheet" href="src/css/reset.css" />
 
+		<!-- Owl2 Carousel -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css"
+			integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw="
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css"
+			integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw="
+			crossorigin="anonymous"
+		/>
+
 		<!-- Custom css -->
 		<link rel="stylesheet" href="src/css/style.css" />
 	</head>
@@ -80,9 +94,83 @@
 						</div>
 					</div>
 				</div>
-				<div class="main-content__genre"></div>
+				<div class="main-content__genre" style="max-width: 100vw">
+					<div class="heading">
+						<span>Browse</span>
+						<img src="src/img/icon-browse.png" alt="browse-icon" />
+						<br />
+						<small>Explore music, entertainment, and many more.</small>
+					</div>
+					<div class="genre__list owl-carousel owl-theme">
+						<div class="item">
+							<figure>
+								<img src="src/img/genre-1.jpg" alt="genre-images" />
+								<figcaption>Popular</figcaption>
+							</figure>
+						</div>
+						<div class="item">
+							<figure>
+								<img src="src/img/genre-2.jpg" alt="genre-images" />
+								<figcaption>Indie</figcaption>
+							</figure>
+						</div>
+						<div class="item">
+							<figure>
+								<img src="src/img/genre-3.jpg" alt="genre-images" />
+								<figcaption>Pop</figcaption>
+							</figure>
+						</div>
+						<div class="item">
+							<figure>
+								<img src="src/img/genre-4.jpg" alt="genre-images" />
+								<figcaption>Rock</figcaption>
+							</figure>
+						</div>
+						<div class="item">
+							<figure>
+								<img src="src/img/genre-5.jpg" alt="genre-images" />
+								<figcaption>Genre 5</figcaption>
+							</figure>
+						</div>
+						<div class="item">
+							<figure>
+								<img src="src/img/genre-6.jpg" alt="genre-images" />
+								<figcaption>Genre 6</figcaption>
+							</figure>
+						</div>
+						<div class="item">
+							<figure>
+								<img src="src/img/genre-7.jpg" alt="genre-images" />
+								<figcaption>Genre 7</figcaption>
+							</figure>
+						</div>
+						<div class="item">
+							<figure>
+								<img src="src/img/genre-8.jpg" alt="genre-images" />
+								<figcaption>Genre 8</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
 				<div class="main-content__playlist"></div>
 			</div>
 		</div>
 	</body>
+
+	<!-- jQuery -->
+	<script
+		src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"
+		integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+		crossorigin="anonymous"
+	></script>
+
+	<!-- Owl2 Carousel -->
+	<script
+		src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"
+		integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0="
+		crossorigin="anonymous"
+	></script>
+
+	<!-- Custom JS -->
+	<script src="src/js/script.js"></script>
 </html>
