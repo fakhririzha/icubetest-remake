@@ -83,6 +83,12 @@
 		width: 7rem !important;
 	}
 
+	.main-content__description {
+		margin-top: 1.5rem !important;
+		text-align: left !important;
+		color: #fff !important;
+	}
+
 	.main-content__heartThis__wrapper {
 		margin-top: 0 !important;
 	}
@@ -109,9 +115,108 @@
 		top: -5rem !important;
 	}
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 641px) and (max-width: 768px) {
+	.page-wrapper {
+		margin-top: 0 !important;
+	}
+
+	.sidebar {
+		height: 100vh !important;
+	}
+
+	.main-content {
+		margin-top: 1rem !important;
+	}
+
+	body > div > div.sidebar > div.mainNav.top > ul > li > img {
+		display: initial !important;
+	}
+
+	body > div > div.sidebar > div.mainNav.top > ul > li > span {
+		visibility: hidden;
+	}
+	.sidebar .mainNav__icon {
+		height: 22px !important;
+		width: auto;
+	}
+
+	.sidebar > .mainNav li.mainNav__item {
+		margin-top: 0.5rem !important;
+		padding: 0.5rem 0.5rem !important;
+	}
+	.sidebar > .mainNav li.mainNav__item > img {
+		padding-left: 3.65rem !important;
+	}
+
+	body > div > div.sidebar > div.mainNav.top > ul > li {
+		height: 24px;
+	}
+	body
+		> div
+		> div.sidebar
+		> div.mainNav.bottom
+		> ul
+		> li.mainNav__item.navTitle {
+		display: none;
+	}
+
+	body
+		> div
+		> div.sidebar
+		> div.mainNav.bottom
+		> ul
+		> li:nth-child(n + 1)
+		span {
+		display: none;
+	}
+
+	.main-content {
+		grid-template-columns: minmax(0, 100%) !important;
+		grid-template-rows: 35% 25% 40% !important;
+	}
+
+	.main-content__player-wrapper {
+		grid-template-columns: 40% 50% !important;
+		column-gap: 5% !important;
+	}
+
+	.main-content__album {
+		text-align: right !important;
+	}
+
+	.main-content__albumImg {
+		margin-left: 1.7rem !important;
+		margin-top: 2.35rem !important;
+		width: 11rem !important;
+	}
+
+	.main-content__heartThis__wrapper {
+		margin-top: 1rem !important;
+	}
+
+	.main-content__genre .owl-item .item figure figcaption {
+		top: -2.9rem !important;
+	}
+
+	.main-content__playlist {
+		margin-top: 2rem !important;
+	}
+	.main-content__genre {
+		margin-top: 3rem !important;
+	}
+
+	body
+		> div
+		> div.main-content
+		> div.main-content__player
+		> div
+		> div.main-content__album
+		> div.main-content__animatedEq__wrapper {
+		left: calc(76.5% - 7.25vw) !important;
+		top: -7.35rem !important;
+	}
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 }
 body > div > div.sidebar > div.mainNav.top > ul > li > img {
 	display: none;
@@ -124,7 +229,6 @@ body > div > div.sidebar > div.mainNav.top > ul > li > span {
 	display: grid;
 	grid-template-columns: 20% 76%;
 	column-gap: 2%;
-
 	margin-top: 1rem;
 }
 
