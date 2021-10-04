@@ -1,3 +1,9 @@
+@media screen and (max-width: 640px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 1024px) {
+}
 .page-wrapper {
 	display: grid;
 	grid-template-columns: 20% 76%;
@@ -356,5 +362,3 @@ body
 	> div.main-content__skipThis__wrapper {
 	cursor: pointer;
 }
-
-

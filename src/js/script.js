@@ -4,6 +4,7 @@ $(document).ready(function () {
 		margin: 40,
 		dots: false,
 		nav: true,
+		slideBy: 4,
 		responsiveClass: true,
 		responsive: {
 			0: {
@@ -22,6 +23,7 @@ $(document).ready(function () {
 		margin: 20,
 		dots: false,
 		nav: true,
+		slideBy: 4,
 		responsiveClass: true,
 		responsive: {
 			0: {
