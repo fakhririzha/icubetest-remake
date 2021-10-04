@@ -53,7 +53,7 @@
 	font-family: "Open Sans", sans-serif;
 	display: grid;
 	grid-template-columns: minmax(0, 100%);
-	grid-template-rows: 33.5% 31.5% 35%;
+	grid-template-rows: 30% 31.5% 38.5%;
 }
 
 .main-content__player {
@@ -139,11 +139,11 @@
 	border-radius: 50%;
 }
 .main-content__genre {
-	margin-top: 2rem;
+	margin-top: 1rem;
 }
 
 .genre__list {
-	margin-top: 1rem;
+	/* margin-top: 1rem; */
 }
 .main-content__genre span {
 	font-size: 18px;
@@ -158,18 +158,20 @@
 }
 
 .main-content__genre img {
+	position: relative;
+	bottom: -2px;
 	height: 16px;
 	width: 16px;
 }
 
-.owl-item .item figure img {
+.main-content__genre .owl-item .item figure img {
 	border-radius: 5px;
 	height: auto;
 }
-.owl-item .item figure img:hover {
+.main-content__genre .owl-item .item figure img:hover {
 	opacity: 90%;
 }
-.owl-item .item figure figcaption {
+.main-content__genre .owl-item .item figure figcaption {
 	position: relative;
 	top: -3.9rem;
 	text-align: center;
@@ -190,18 +192,169 @@ body
 	> div.main-content__genre
 	> div.genre__list.owl-carousel.owl-theme.owl-loaded.owl-drag
 	> div.owl-nav
-	> [class*="owl-"] {
+	> button[class*="owl-"]
+	> span {
 	font-size: 25px;
-	color: #72727d;
+	opacity: 25%;
 }
+
 body
 	> div
 	> div.main-content
 	> div.main-content__genre
 	> div.genre__list.owl-carousel.owl-theme.owl-loaded.owl-drag
 	> div.owl-nav
-	> [class*="owl-"]:hover {
+	> button[class*="owl-"]:hover
+	> span {
+	opacity: 100%;
+}
+
+body
+	> div
+	> div.main-content
+	> div.main-content__genre
+	> div.genre__list.owl-carousel.owl-theme.owl-loaded.owl-drag
+	> div.owl-nav
+	> button[class*="owl-"]:hover {
 	background: none;
 	color: #32323d;
 	font-weight: 600;
 }
+
+.main-content__playlist {
+	margin-top: -2rem;
+}
+
+.playlist__list {
+	/* margin-top: 1rem; */
+}
+.main-content__playlist span {
+	font-size: 18px;
+	font-weight: 600;
+	color: #32323d;
+}
+.main-content__playlist small {
+	font-size: 14px;
+	line-height: 1.5rem;
+	font-weight: 400;
+	color: #72727d;
+}
+
+.main-content__playlist img {
+	position: relative;
+	bottom: -2px;
+	height: 16px;
+	width: 16px;
+}
+
+.main-content__playlist .owl-item .item figure img {
+	border-radius: 5px;
+	height: auto;
+}
+.main-content__playlist .owl-item .item figure img:hover {
+	opacity: 90%;
+}
+.main-content__playlist .owl-item .item figure figcaption {
+	margin-top: -1rem;
+}
+.main-content__playlist .owl-item .item figure figcaption span {
+	font-size: 14px;
+	color: #32323d;
+}
+
+.main-content__playlist .owl-item .item figure figcaption p {
+	margin-top: 0.25rem;
+	font-size: 12px;
+	color: #72727d;
+}
+
+.main-content__playlist .owl-item .item figure figcaption .navigation {
+	position: relative;
+	top: -1.35rem;
+	margin-left: 0.5rem;
+	transition: visibility ease-in 0s;
+	visibility: hidden;
+}
+
+.main-content__playlist
+	.owl-item
+	.item
+	figure
+	img:hover
+	+ figcaption
+	.navigation {
+	transition: visibility ease-out 0.5s;
+	visibility: visible;
+}
+
+.main-content__playlist
+	.owl-item
+	.item
+	figure
+	img:hover()
+	+ figcaption
+	div.navigation {
+	visibility: visible;
+}
+
+.main-content__playlist .owl-item .item figure figcaption .navigation img {
+	width: 25px;
+	height: auto;
+	margin: 0px 0.25rem;
+	display: inline-block;
+}
+
+body
+	> div
+	> div.main-content
+	> div.main-content__playlist
+	> div.playlist__list.owl-carousel.owl-theme.owl-loaded.owl-drag
+	> div.owl-nav
+	> button[class*="owl-"]
+	> span {
+	font-size: 25px;
+	opacity: 25%;
+}
+
+body
+	> div
+	> div.main-content
+	> div.main-content__playlist
+	> div.playlist__list.owl-carousel.owl-theme.owl-loaded.owl-drag
+	> div.owl-nav
+	> button[class*="owl-"]:hover
+	> span {
+	opacity: 100%;
+}
+body
+	> div
+	> div.main-content
+	> div.main-content__playlist
+	> div.playlist__list.owl-carousel.owl-theme.owl-loaded.owl-drag
+	> div.owl-nav
+	> button[class*="owl-"]:hover {
+	background: none;
+	color: #32323d;
+	font-weight: 600;
+}
+
+body
+	> div
+	> div.main-content
+	> div.main-content__player
+	> div
+	> div.main-content__description
+	> div.main-content__heartThis__wrapper {
+	cursor: pointer;
+}
+body
+	> div
+	> div.main-content
+	> div.main-content__player
+	> div
+	> div.main-content__description
+	> div.main-content__skipThis__wrapper {
+	cursor: pointer;
+}
+
+
