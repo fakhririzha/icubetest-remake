@@ -217,6 +217,30 @@
 	}
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+	.main-content__album img.main-content__albumImg {
+		margin-top: 1.15rem !important;
+		width: 10rem !important;
+	}
+
+	.main-content__album .main-content__animatedEq__wrapper {
+		left: calc(92% - 7.25vw) !important;
+	}
+
+	.main-content__heartThis__wrapper {
+		margin-top: 0.5rem !important;
+	}
+
+	.main-content__genre {
+		margin-top: 2rem !important;
+	}
+
+	.main-content__playlist {
+		margin-top: -1rem !important;
+	}
+
+	.main-content__genre .owl-item .item figure figcaption {
+		top: -3rem !important;
+	}
 }
 body > div > div.sidebar > div.mainNav.top > ul > li > img {
 	display: none;
