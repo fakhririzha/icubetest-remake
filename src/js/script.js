@@ -10,10 +10,10 @@ $(document).ready(function () {
 			0: {
 				items: 1,
 			},
-			767: {
+			768: {
 				items: 3,
 			},
-			768: {
+			769: {
 				items: 4,
 			},
 		},
@@ -29,10 +29,10 @@ $(document).ready(function () {
 			0: {
 				items: 1,
 			},
-			767: {
+			768: {
 				items: 3,
 			},
-			768: {
+			769: {
 				items: 4,
 			},
 		},

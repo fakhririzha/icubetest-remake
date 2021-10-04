@@ -1,8 +1,124 @@
 @media screen and (max-width: 640px) {
+	.page-wrapper {
+		margin-top: 0 !important;
+	}
+
+	.sidebar {
+		height: 100vh !important;
+	}
+
+	.main-content {
+		margin-top: 1rem !important;
+	}
+
+	body > div > div.sidebar > div.mainNav.top > ul > li > img {
+		display: initial !important;
+	}
+
+	body > div > div.sidebar > div.mainNav.top > ul > li > span {
+		visibility: hidden;
+	}
+	.sidebar .mainNav__icon {
+		height: 22px !important;
+		width: auto;
+	}
+
+	.sidebar > .mainNav li.mainNav__item {
+		margin-top: 0.5rem !important;
+		padding: 0.5rem 0.5 !important;
+	}
+	.sidebar > .mainNav li.mainNav__item > img {
+		padding-left: 3.15rem !important;
+	}
+
+	body > div > div.sidebar > div.mainNav.top > ul > li {
+		height: 24px;
+	}
+	body
+		> div
+		> div.sidebar
+		> div.mainNav.bottom
+		> ul
+		> li.mainNav__item.navTitle {
+		display: none;
+	}
+
+	body
+		> div
+		> div.sidebar
+		> div.mainNav.bottom
+		> ul
+		> li:nth-child(n + 1)
+		span {
+		display: none;
+	}
+
+	body
+		> div
+		> div.main-content
+		> div.main-content__player
+		> div
+		> div.main-content__album
+		> div.main-content__animatedEq__wrapper {
+		left: calc(72.5% - 7.25vw) !important;
+		top: -6.5rem !important;
+	}
+	.main-content {
+		grid-template-columns: minmax(0, 100%) !important;
+		grid-template-rows: 16% 38.5% 45.5% !important;
+	}
+
+	.main-content__player-wrapper {
+		grid-template-columns: 30% 64% !important;
+		column-gap: 3% !important;
+	}
+
+	.main-content__album {
+		text-align: left !important;
+	}
+
+	.main-content__albumImg {
+		margin-left: 1.7rem !important;
+		margin-top: 1.7rem !important;
+		width: 7rem !important;
+	}
+
+	.main-content__heartThis__wrapper {
+		margin-top: 0 !important;
+	}
+
+	.main-content__genre .owl-item .item figure figcaption {
+		top: -7.9rem !important;
+	}
+
+	.main-content__playlist {
+		margin-top: -3rem !important;
+	}
+	.main-content__genre {
+		margin-top: 2rem !important;
+	}
+
+	body
+		> div
+		> div.main-content
+		> div.main-content__player
+		> div
+		> div.main-content__album
+		> div.main-content__animatedEq__wrapper {
+		left: calc(72.5% - 7.25vw) !important;
+		top: -5rem !important;
+	}
 }
 @media screen and (max-width: 768px) {
 }
 @media screen and (max-width: 1024px) {
+}
+body > div > div.sidebar > div.mainNav.top > ul > li > img {
+	display: none;
+}
+
+body > div > div.sidebar > div.mainNav.top > ul > li > span {
+	padding-left: 0;
 }
 .page-wrapper {
 	display: grid;
