@@ -1,8 +1,12 @@
-#Buat sebuah halaman HTML STATIS dari antarmuka internet-based music streaming service dengan desain seperti berikut :
+- [Buat sebuah halaman HTML STATIS dari antarmuka internet-based music streaming service dengan desain seperti berikut :](#buat-sebuah-halaman-html-statis-dari-antarmuka-internet-based-music-streaming-service-dengan-desain-seperti-berikut-)
+	- [Teknis kebutuhan informasi situs :](#teknis-kebutuhan-informasi-situs-)
+	- [Teknis kebutuhan teknikal situs :](#teknis-kebutuhan-teknikal-situs-)
+	- [Responsive Preview :](#responsive-preview-)
+# Buat sebuah halaman HTML STATIS dari antarmuka internet-based music streaming service dengan desain seperti berikut :
 https://drive.google.com/file/d/1h_n0qSVDedAySuG5PlHL7_B8ng4JSEY8/view?usp=sharing
 
 
-##Teknis kebutuhan informasi situs : 
+## Teknis kebutuhan informasi situs : 
 
 1. Konten situs terbagi dua, antarmuka navigasi dan antarmuka pemutar musik
 
@@ -30,7 +34,7 @@ dengan rasio lebar 76%. Sisa rasio layar akan menjadi jarak pemisah antarelemen.
 	c) 1 item ketika ukuran layar memiliki ukuran dibawah 767px
 
 
-##Teknis kebutuhan teknikal situs :
+## Teknis kebutuhan teknikal situs :
 
 1. HTML
 2. CSS atau LESS atau SCSS (pilih salah satu)
@@ -40,7 +44,7 @@ dengan rasio lebar 76%. Sisa rasio layar akan menjadi jarak pemisah antarelemen.
 6. Icon, SVG akan disediakan secara default
 
 
-##Responsive Preview :
+## Responsive Preview :
 CSS media query dilakukan di layar berukuran
 1. 640px dan ke bawah, 
 2. 768px (ukuran menu icon adalah 22px X 22px)
