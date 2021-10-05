@@ -47,6 +47,3 @@ CSS media query dilakukan di layar berukuran
 3. 1024px, 
 4. di atas 1024/desktop, dapat dilihat pada:
 https://drive.google.com/drive/folders/14dlGumoZ4cjOKasRypW422VCX4R68QbE?usp=sharing
-
-640 * 1021
-768 * 742
