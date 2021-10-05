@@ -1,7 +1,3 @@
-- [Buat sebuah halaman HTML STATIS dari antarmuka internet-based music streaming service dengan desain seperti berikut :](#buat-sebuah-halaman-html-statis-dari-antarmuka-internet-based-music-streaming-service-dengan-desain-seperti-berikut-)
-	- [Teknis kebutuhan informasi situs :](#teknis-kebutuhan-informasi-situs-)
-	- [Teknis kebutuhan teknikal situs :](#teknis-kebutuhan-teknikal-situs-)
-	- [Responsive Preview :](#responsive-preview-)
 # Buat sebuah halaman HTML STATIS dari antarmuka internet-based music streaming service dengan desain seperti berikut :
 https://drive.google.com/file/d/1h_n0qSVDedAySuG5PlHL7_B8ng4JSEY8/view?usp=sharing
 
